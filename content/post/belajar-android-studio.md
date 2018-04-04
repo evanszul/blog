@@ -8,4 +8,19 @@ tags : [
     "studio"    
 ]
 ---
-Perkenalkan nama saya Evans Zulhendy. Kali ini saya akan membagikan tutorial tutorial seputar android selama yang saya pelajari di internet.
+Berikut ini adalah beberapa tutorial Android Studio:
+
+- Membuat aplikasi kalkulator sederhana
+
+- Membuat Input dan menampilkannya dengan Toast
+
+- Membuat CardView dan RecyclerView
+
+- Membuat ListView
+
+- Menerapkan Volley Untuk mengambil beberapa data
+
+
+Beberapa contoh aplikasi android:
+
+- Aplikasi Kalkulator Android
