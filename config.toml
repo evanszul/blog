@@ -1,11 +1,11 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://www.example.com"
+baseurl = "https://evanszul.github.io/"
 
 # Site title
-title = "sitename"
+title = "Evan's Blog"
 
 # Copyright
-copyright = "(c) 2015 yourname."
+copyright = "(c) 2015 Evans Zulhendy."
 
 # Language
 languageCode = "en-EN"
@@ -33,25 +33,25 @@ disqusShortname = "your_disqus_shortname"
     topic = "topics"
 
 [author]
-    name = "yourname"
-    email = "yourname@example.com"
+    name = "Evans Zulhendy"
+    email = "evanszul@gmail.com"
 
 #
 # All parameters below here are optional and can be mixed and matched.
 #
 [params]
     # You can use markdown here.
-    brand = "foobar"
-    topline = "few words about your site"
+    brand = "Evan's Blog"
+    topline = "Say hello to the world with code."
     footline = "code with <i class='fa fa-heart'></i>"
 
     # Sidebar position
     # false, true, "left", "right"
-    sidebar = "left"
+    sidebar = "right"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
-    home = "home"
+    home = "Home"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
@@ -61,11 +61,11 @@ disqusShortname = "your_disqus_shortname"
     googleAnalytics = "Your Google Analytics tracking code"
 
     # Sidebar social links.
-    github = "enten/hugo-boilerplate" # Your Github profile ID
+    github = "evanszul" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
     linkedin = "" # Your LinkedIn profile ID (from public URL)
     googleplus = "" # Your Google+ profile ID
-    facebook = "" # Your Facebook profile ID
+    facebook = "evanszul" # Your Facebook profile ID
     twitter = "" # Your Twitter profile ID
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
