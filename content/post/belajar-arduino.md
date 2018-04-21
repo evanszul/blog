@@ -1,13 +1,14 @@
 ---
 title: "Belajar Arduino"
 date: 2018-04-04T23:12:26+07:00
-draft: false
+draft: true
 categories : [ "arduino" ]
 tags : [
     "arduino",
     "led",
     "listrik",
     "robotik"    
+]
 ---
 Berikut ini beberapa tutorial mengenai arduino:
 
