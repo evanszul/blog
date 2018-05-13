@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://evanszul.github.io/"
+baseurl = "https://evanszul.ga/"
 
 # Site title
 title = "Evan's Blog"
@@ -47,7 +47,7 @@ disqusShortname = "evanszul"
 
     # Sidebar position
     # false, true, "left", "right"
-    sidebar = "right"
+    sidebar = "left"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
@@ -55,7 +55,7 @@ disqusShortname = "evanszul"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
-    highlight = "default"
+    highlight = "monokai"
 
     # Google Analytics.
     googleAnalytics = "Your Google Analytics tracking code"
