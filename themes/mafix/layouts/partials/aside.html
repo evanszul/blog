@@ -1,0 +1,56 @@
+<aside>
+    <div class="info">
+    <div class="icon icon-primary">
+            <i class="material-icons">chat</i>
+            <h4 class="info-title text-primary">New Post</h4>
+    </div>
+    {{ range first 5 .Site.Pages }}
+    {{if eq .Type "post" }}
+        <div class="card">
+            <div class="card-body ">
+                <h6 class="card-category text-danger">
+                    <i class="material-icons">trending_up</i> {{ .Date.Format "02 Jan, 2006" }}
+                </h6>
+                <h4 class="card-title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h4>
+        
+            </div>
+            <div class="card-footer ">
+                    <div class="author">
+                        <a href="#evanszul">
+                            <img src="{{ .Site.Author.image }}" alt="..." class="avatar img-raised">
+                            <span>{{ .Site.Author.name }}</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+     {{ end }}
+     {{ end }}
+    </div>
+
+
+    <div class="card card-profile">
+            <div class="card-header card-header-image">
+                  <a href="#evanszul">
+                      <img class="img" src="https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-9/21557807_1538633666180197_2826441025559071473_n.jpg?_nc_cat=0&_nc_eui2=AeEgXlNBRTMOgWlAUjXCUZG4rq9oeZCYRjZ4hW9bzaF6z6fgC8XTYqCa79xt1Bj_9GYhvdJuo22QC-iZR55gGI1FiY4m3VFqYSTNuto8SoP5Yw&oh=7663b0d5ee4a913e4f0eca9a40cf4ce1&oe=5B9C2B90">
+                  </a>
+              </div>
+          
+              <div class="card-body ">
+                  <h4 class="card-title">Evans Zulhendy</h4>
+                  <h6 class="card-category text-gray">Web Programmer</h6>
+              </div>
+              <div class="card-footer justify-content-center">
+                  <a href="#evanszul" class="btn btn-just-icon btn-twitter btn-round">
+                      <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#evanszul" class="btn btn-just-icon btn-facebook btn-round">
+                      <i class="fa fa-facebook-square"></i>
+                  </a>
+                  <a href="#evanszul" class="btn btn-just-icon btn-google btn-round">
+                      <i class="fa fa-google"></i>
+                  </a>
+              </div>
+          </div>
+</aside>

@@ -1,0 +1,25 @@
+title = "Blog Evans"
+baseurl = "http://localhost:1313"
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
+
+# untuk apply temanya
+themesDir = "themes"
+theme = "mafix"
+
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = "petanikode"
+
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = "UA-80517197-1" 
+
+# Untuk deskripsi tag meta di homepage
+description = "Blog Programmer pengguna Linux"
+
+# Biodata Author
+[author]
+    name = "Evans Zulhendy"
+    homepage = "https://evanszul.ga"
+    bio = "Pengamat Langit"
+    image = "https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&oh=a097b07fbbbb8871d5b884073af89e0e&oe=5B85AEBD"
