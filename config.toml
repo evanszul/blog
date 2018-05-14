@@ -1,80 +1,25 @@
-# hostname (and path) to the root eg. http://spf13.com/
-baseurl = "https://evanszul.ga/"
+title = "Blog Evans"
+baseurl = "http://localhost:1313"
 
-# Site title
-title = "Evan's Blog"
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
 
-# Copyright
-copyright = "(c) 2018 Evans Zulhendy."
+# untuk apply temanya
+themesDir = "themes"
+theme = "mafix"
 
-# Language
-languageCode = "en-EN"
+# Shortname disqus, silahkan sesuaikan
+DisqusShortname = "petanikode"
 
-# Metadata format
-# "yaml", "toml", "json"
-metaDataFormat = "yaml"
+# Untuk Google Analytic, silahkan sesuikan
+googleAnalytics = "UA-80517197-1" 
 
-# Theme to use (located in /themes/THEMENAME/)
-theme = "hyde-y"
+# Untuk deskripsi tag meta di homepage
+description = "Blog Programmer pengguna Linux"
 
-# Pagination
-paginate = 10
-paginatePath = "page"
-
-# Enable Disqus integration
-disqusShortname = "evanszul"
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
-
-[taxonomies]
-    tag = "tags"
-    topic = "topics"
-
+# Biodata Author
 [author]
     name = "Evans Zulhendy"
-    email = "evanszul@gmail.com"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-[params]
-    # You can use markdown here.
-    brand = "Evan's Blog"
-    topline = "Say hello to the world with code."
-    footline = "code with <i class='fa fa-heart'></i>"
-
-    # Sidebar position
-    # false, true, "left", "right"
-    sidebar = "left"
-
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Home".
-    home = "Home"
-
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "monokai"
-
-    # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
-
-    # Sidebar social links.
-    github = "evanszul" # Your Github profile ID
-    bitbucket = "" # Your Bitbucket profile ID
-    linkedin = "" # Your LinkedIn profile ID (from public URL)
-    googleplus = "" # Your Google+ profile ID
-    facebook = "evanszul" # Your Facebook profile ID
-    twitter = "" # Your Twitter profile ID
-    youtube = ""  # Your Youtube channel ID
-    flattr = ""  # populate with your flattr uid
-
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    plainIdAnchors = true
-    extensions = []
-    extensionmask = []
+    homepage = "https://evanszul.ga"
+    bio = "Pengamat Langit"
+    image = "https://scontent.fcgk4-1.fna.fbcdn.net/v/t1.0-1/p160x160/26196000_1643381785705384_1669913002025064128_n.jpg?_nc_cat=0&_nc_eui2=AeFQMQh3Ckcas7boJ_9CoBcNq7_KDWNISZ-lezBwrC8gRdGnlM1ywQmpmS1DnNdeSeecx1Kq0iQPe-nYjPF7e_fZFP1W-5D5fjAFShJYtWem8A&oh=a097b07fbbbb8871d5b884073af89e0e&oe=5B85AEBD"

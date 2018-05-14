@@ -4,6 +4,9 @@ date: 2018-04-25T23:47:03+07:00
 tags: ["html"]
 categories: ["html"]
 draft: false
+
+image: http://evanszul.ga/image_negara_asean/jpg/Image-Malaysia.jpg
+thumbnail: http://evanszul.ga/image_negara_asean/jpg/Image-Malaysia.jpg
 ---
 
 Pernah mengalami error pada halaman html yang sudah diberi beberapa sintaks dan menemukan error seperti dibawah ini?

@@ -4,6 +4,9 @@ date: 2018-04-25T23:20:50+07:00
 tags: ["html","bootsrap"]
 categories: ["web"]
 draft: false
+
+image: http://evanszul.ga/image_negara_asean/jpg/Image-Malaysia.jpg
+thumbnail: http://evanszul.ga/image_negara_asean/jpg/Image-Malaysia.jpg
 ---
 
 Jika teman-teman selesai membuat halaman html pada komputer menggunakan bootsrap, setelah di coba di smartphone tampilannya menjadi berantakan di pc. Teman-teman dapat menggunakan kode dibawah ini untuk merapikannya. Letakkan kode dibawah ini didalam <head> pada halaman html.

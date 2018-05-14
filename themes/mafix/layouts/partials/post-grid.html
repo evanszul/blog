@@ -1,0 +1,35 @@
+<article class="card-post">
+    <div class="container">
+        <div class="row">
+
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "post") 6 }}
+            {{ range $paginator.Pages }}
+                <div class="col-md-4 mb-4 d-flex">
+                        <a class="text-white" href="{{ .RelPermalink }}">
+                        <div class="card card-blog">
+                            <div class="card-header card-header-image">
+                                    <img class="img" alt='{{ .Title }}' src='{{ if eq .Params.Image "" }}http://lorempixel.com/320/160{{else}}{{ .Params.Image }}{{end}}'>
+                                    <div class="card-title">    
+                                        {{ .Site.Author.name }}
+                                    </div>
+                            </div>
+                            <div class="card-body">
+                                <a class="card-title text-dark" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                <h6 class="card-category text-info"> {{ .Date.Format "02-01-2006" }}</h6>
+                            </div>
+                        </div>
+                    </a>
+
+
+                </div>
+            {{ end }}
+
+        </div>
+    </div>
+</article>
+
+<br>
+
+<div class="container">
+    {{ partial "pagination.html" . }}
+</div>
