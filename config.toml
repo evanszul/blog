@@ -1,5 +1,5 @@
 title = "Blog Evans"
-baseurl = "http://localhost:1313"
+baseurl = "http://evanszul.ga"
 
 # Agar front-matter pakai format YAML
 MetaDataFormat = "yaml"
