@@ -1,5 +1,5 @@
 title = "Blog Evans"
-baseurl = "http://evanszul.ga"
+baseurl = "http://evanszul.ga/"
 
 # Agar front-matter pakai format YAML
 MetaDataFormat = "yaml"
@@ -12,7 +12,7 @@ theme = "mafix"
 DisqusShortname = "evanszul-1"
 
 # Untuk Google Analytic, silahkan sesuikan
-googleAnalytics = "UA-80517197-1" 
+googleAnalytics = "UA-80517197-1"
 
 # Untuk deskripsi tag meta di homepage
 description = "Blog Programmer pengguna Linux"

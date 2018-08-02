@@ -1,0 +1,18 @@
+
+.post-content  {
+    font-family: Merriweather, Georgia, Sans-serif;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: Roboto, Sans;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.post-content img {
+    max-width: 100%;
+}
